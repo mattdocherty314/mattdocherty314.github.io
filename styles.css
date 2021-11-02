@@ -7,8 +7,41 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	padding: 0;
-}
 
+	font-family: 'Courier New', Courier, monospace;
+}
+p {
+	margin: 0;
+
+	font-size: 0.9em;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 3.8em;
+}
+h2 {
+	font-size: 1.2em;
+	text-align: left;
+}
+h3 {
+	font-size: 1.5em;
+}
+h4 {
+	margin: 0;
+
+	font-size: 1.25em;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h5 {
+	margin: 0;
+
+	font-size: 1em;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
 
 header {
 	display: block;
@@ -16,11 +49,15 @@ header {
 	top: 0;
 	scroll-margin: 0;
 	padding: 0;
-
 	width: 80%;
-	background-color: white;
-}
 
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 2%;
+
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
 footer ul {
 	display: block;
 	position: fixed;
@@ -28,9 +65,14 @@ footer ul {
 	margin: 0;
 	scroll-margin: 0;
 	padding: 0;
-
 	width: 80%;
+
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 2%;
+
 	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
 }
 footer ul li {
 	display: inline-block;
@@ -47,11 +89,20 @@ footer ul li {
 	text-decoration: none;
 	color: black;
 }
+div {
+	padding: 3%;
+	margin: 4%;
+
+	border-color: black;
+	border-style: solid;
+	border-width: 2%;
+	border-radius: 3vh;
+}
 
 
 #top {
 	display: block;
-	padding-top: 35vh;
-	padding-bottom: 35vh;
+	padding-top: 30vh;
+	padding-bottom: 40vh;
 }
 
