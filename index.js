@@ -11,7 +11,6 @@ function updateText() {
 	}
 
 	for (let key in positions) {
-		console.log(document.getElementById('description').getBoundingClientRect().top) 
 		if (document.getElementById(key).getBoundingClientRect().top < 50) {
 			document.getElementById('head').innerHTML = positions[key];
 		}
