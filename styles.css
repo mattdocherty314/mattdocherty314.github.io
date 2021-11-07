@@ -109,6 +109,12 @@ div {
 	border-width: 2%;
 	border-radius: 3vh;
 }
+img {
+	padding: 2%;
+
+	width: 96%;
+	max-height: 100vh;
+}
 
 
 #top {
