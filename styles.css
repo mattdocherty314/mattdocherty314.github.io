@@ -119,7 +119,12 @@ img {
 
 #top {
 	display: block;
-	padding-top: 25vh;
+	padding-top: 20vh;
 	padding-bottom: 40vh;
+}
+.ico {
+	width: 10vw;
+	max-width: 48px;
+	float: right;
 }
 
