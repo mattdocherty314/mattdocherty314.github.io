@@ -1,5 +1,6 @@
 function pageLoad() {
 	window.addEventListener('scroll', updateText);
+	randomiseSubheading()
 }
 
 function updateText() {
@@ -15,6 +16,17 @@ function updateText() {
 			document.getElementById('head').innerHTML = positions[key];
 		}
 	}
+}
+
+function randomiseSubheading() {
+	const subheadings = [
+		"A Software Engineering & Computer Science student.",
+		"An aspiring software engineer",
+		"A passionate computer programmer"
+	];
+	let r = Math.floor(Math.random()*subheadings.length);
+
+	document.getElementById("sh").innerHTML = subheadings[r];
 }
 
 window.addEventListener('load', pageLoad);
