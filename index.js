@@ -15,7 +15,7 @@ function updateText() {
 	}
 
 	for (let key in positions) {
-		if (document.getElementById(key).getBoundingClientRect().top < 50) {
+		if (document.getElementById(key)?.getBoundingClientRect().top < 50) {
 			document.getElementById('head').innerHTML = positions[key];
 		}
 	}
@@ -35,6 +35,9 @@ function randomiseSubheading() {
 
 // Animates a DOM text object to look like a typewriter
 function typewriterText(word, c, DOMobj, delay) {
+	if (DOMobj === null) {
+		return;
+	}
 	DOMobj.innerHTML = word.slice(0, c+1);
 
 	if (c+1 !== word.length) {
