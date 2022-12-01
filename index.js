@@ -24,9 +24,10 @@ function updateText() {
 // Randomises the subheading on the page
 function randomiseSubheading() {
 	const subheadings = [
-		"A Software Engineering & Computer Science Student.",
+		"A Software Engineering & Computer Science Graduate.",
 		"An Aspiring Software Engineer.",
-		"A Passionate Computer Programmer."
+		"A Passionate Computer Programmer.",
+		"An Information Systems Auditor."
 	];
 	let r = Math.floor(Math.random()*subheadings.length);
 
