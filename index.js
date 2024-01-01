@@ -25,7 +25,7 @@ function updateText() {
 function randomiseSubheading() {
 	const subheadings = [
 		"A Software Engineering & Computer Science Graduate.",
-		"An Aspiring Software Engineer.",
+		"An Hobbyist Software Engineer.",
 		"A Passionate Computer Programmer.",
 		"An Information Systems Auditor."
 	];
